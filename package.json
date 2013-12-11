@@ -1,0 +1,7 @@
+{
+  "name": "request-log-middleware",
+  "private": true,
+  "dependencies": {
+    "extend": "~1.2.1"
+  }
+}
