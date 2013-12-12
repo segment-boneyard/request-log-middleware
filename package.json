@@ -1,7 +1,9 @@
 {
-  "name": "request-log-middleware",
+  "name": "s-request-log-middleware",
   "private": true,
   "dependencies": {
-    "extend": "~1.2.1"
+    "extend": "~1.2.1",
+    "s-extend": "1.0.0",
+    "s-on-response": "1.0.0"
   }
 }
