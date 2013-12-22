@@ -1,14 +1,12 @@
 
-var extend = require('s-extend');
-var onResponse = require('s-on-response');
-
+var extend = require('extend');
+var onResponse = require('on-response');
 
 /**
  * Expose `generate`.
  */
 
 module.exports = generate;
-
 
 /**
  * Generate a request logging middleware.
@@ -38,7 +36,6 @@ function generate (logger) {
     next();
   };
 }
-
 
 /**
  * Formats the request log message.
