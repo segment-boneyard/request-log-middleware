@@ -1,6 +1,6 @@
 # request-log-middleware
 
-    Log an [express](https://github.com/visionmedia/express) request.
+  Log an [express](https://github.com/visionmedia/express) request.
 
 ## Example
 
@@ -19,7 +19,7 @@ app.configure('production', function () {
 
 ### requestLog(logger)
 
-    Return a request logger middleware.
+  Return a request logger middleware.
 
 
 ## License
